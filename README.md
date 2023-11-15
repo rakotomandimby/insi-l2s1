@@ -7,3 +7,10 @@
 ```
 ssh -p 2210 root@insi-00.rktmb.org
 ```
+
+# Aller sur votre site
+
+- http://insil2s1-groupe10.rktmb.org
+- http://insil2s1-groupe11.rktmb.org
+- http://insil2s1-groupe12.rktmb.org
+- http://insil2s1-groupe13.rktmb.org
