@@ -14,3 +14,11 @@ ssh -p 2210 root@insi-00.rktmb.org
 - http://insil2s1-groupe11.rktmb.org
 - http://insil2s1-groupe12.rktmb.org
 - http://insil2s1-groupe13.rktmb.org
+
+# Copier
+
+```
+scp -P 2210 ./index.html root@insi-00.rktmb.org:/var/www/html/
+```
+
+
