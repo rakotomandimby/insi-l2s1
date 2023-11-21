@@ -1,6 +1,10 @@
 # Allez sur Discord
 
-[Cliquez ici pour aller sur le groupe Discord](https://discord.gg/DUnwCtj5nT)
+1. [Cliquez ici pour aller sur le groupe Discord](https://discord.gg/DUnwCtj5nT)
+
+2. Inscrivez-vous avec votre email:
+
+![Inscription](./verify.png)
 
 # Remplissez le formulaire
 
