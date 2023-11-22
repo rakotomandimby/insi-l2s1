@@ -2,40 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire de matière</title>
+    <title>Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- navigation -->
+    <!-- header -->
     <header>
-    <nav>
-    
-        <img src="logo.png" alt="Ecole de collaboration" class="logo" />
-    
-        <ul class="menu">
-          <li class="menu-item is-active"><a href="index.html">Home</a></li>
-          <li class="menu-item"><a href="about.html">About</a></li>
-          <li class="menu-item"><a href="services.html">Services</a></li>
-          <li class="menu-item"><a href="#">Contact</a></li>
-        </ul>
-    
-      </nav>
+        <div class="logo">Ecole de collaboration</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Enseignants</a>
+                </li>
+                <li>
+                    <a href="">Classes</a>
+                </li>
+                <li>
+                    <a href="">Elèves</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <!-- fin de navigation -->
+    <!-- fin du header -->
 
-    <div class="container">
-        <h2>Ajout de matière</h2>
-        <form action="">
-            <label for="nom_matiere">Nom de la matière: </label>
-            <input type="text" id="nom_matiere" required />
+    <!-- section titre -->
+    <section class="titre">
+        <div class="t-container">
+            <h2>Listes des matières</h2>
+            <input type="text" placeholder="Search..." >
+        </div>
+    </section>
 
-            <label for="description">Description de la matière</label>
-            <input type="text" id="description" required />
+    <!-- fin de sections listes -->
+    <!-- <section class="list">
+        <div class="cards">
+            <div class="text-card">
+                <h3></h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At culpa sapiente error molestias temporibus distinctio debitis quasi numquam voluptatum soluta.</p>
+            </div>
+            <div class="text-card">
+                <h3></h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At culpa sapiente error molestias temporibus distinctio debitis quasi numquam voluptatum soluta.</p>
+            </div>
+            <div class="text-card">
+                <h3></h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At culpa sapiente error molestias temporibus distinctio debitis quasi numquam voluptatum soluta.</p>
+            </div>
+        </div>
+    </section> -->
 
-            <input type="submit" value="Ajouter" />
-        </form>
-    </div>
+
+    <!-- script javascript -->
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = () => {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active")
+        }
+    </script>
 </body>
 </html>
